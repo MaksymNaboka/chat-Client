@@ -1,9 +1,6 @@
-I attest that I am the sole author of this summitted work 
-and any code borrowed from other sources has been identified 
-by comments placed in my submitted code.
-Maksym Naboka, #101285484
-
-
+I deployed this project publicly here:
+https://chat-client.fly.dev
+Note that there may be times when website isn't working, because hosting is too expensive to run website 24/7, all year long
 
 
 INSTALL INSTRUCTIONS:
@@ -24,12 +21,12 @@ node server.js
 TESTING INSTRUCTIONS:
 you need to visit the website that is printed in console:
 http://localhost:3000/chatClient.html
-or simply http://localhost:3000/ (this is sane modification and not an error)
+or simply http://localhost:3000/
 
 To terminate server press CNTL-C
 
 
-Open this website in two(or more) browser windows, and you will be able to chat between clients(windows)
+Open this website in two(or more) browser windows(on the same computer), and you will be able to chat between clients(windows)
 
 To view messages or send yourself you first need to register in chat
 To do that you need to enter username in specified field and press "connect as" button
@@ -75,8 +72,6 @@ Yellow - message about user disconnection
 Grey - message from chat history
 
 *****************************************************************************************************************
-
-The following are modifications I made, which I think go well with purpose and intent of this assignment:
 
 *modification 1*
 Private messages are now showing all recepients(still only existing) of the message
