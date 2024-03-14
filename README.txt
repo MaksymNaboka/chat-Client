@@ -23,7 +23,7 @@ node server.js
 TESTING INSTRUCTIONS:
 you need to visit the website that is printed in console:
 http://localhost:3000/chatClient.html
-or simply http://localhost:3000/ (this is sane modification and not an error)
+or simply http://localhost:3000/
 
 To terminate server press CNTL-C
 
@@ -75,13 +75,10 @@ Grey - message from chat history
 
 *****************************************************************************************************************
 
-The following are modifications I made, which I think go well with purpose and intent of this assignment:
-
 *modification 1*
 Private messages are now showing all recepients(still only existing) of the message
 Messages now show like this: "Sender -> Recepient1, Recepient2, ... : message"
 This is made so that all members of private group know who was sender and recepients
-NOTE that this doesn't break security requirement as only intended recepients see the message and no one else
 
 *modification 2*
 Messages now appear indicating person connecting and disconnecting from the chat
@@ -101,7 +98,6 @@ It is set to 30 messages at most, but this is easily modifiable variable on serv
 Chat history consists only of public messages, and no private messages will be added to that history
 "Clear chat" button also clears the history for this user
 
-NOTE that this does not break security requirements as no user will see the messages that were prior to the first login
 
 Take a look at this example:
 
