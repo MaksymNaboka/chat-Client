@@ -1,7 +1,6 @@
-I attest that I am the sole author of this summitted work 
-and any code borrowed from other sources has been identified 
-by comments placed in my submitted code.
-Maksym Naboka, #101285484
+I also deployed this project to:
+https://chat-client.fly.dev
+but it is not running 24/7
 
 
 
